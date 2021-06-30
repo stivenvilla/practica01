@@ -1,0 +1,190 @@
+*{margin: 0; 
+    padding: 0;
+}
+header {height:150px;
+        width:100%;
+        background-color: cadetblue;
+}
+
+.logo{width: 25%;
+      height: 150px ;
+      background-color:black;
+      float:left
+      
+}
+
+.titulo{width: 45%;
+    height: 150px ;
+    background-color:black;
+    float:left
+}
+
+.info{width: 30%;
+    height: 150px ;
+    background-color: black;
+    float:left
+}
+
+.logo img{height: 140px;
+       border: radius 100%;
+       display:block;
+       margin:auto;
+}
+.titulo h1{text-align: center;
+        padding-top: 30px;
+        color:white;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font: size 20px;
+
+}
+
+
+.titulo h2{text-align: center;
+    padding-top: 10px;
+    color:white;
+    font-family:monospace;
+    font: size 10px;
+}
+
+.info p{text-align:center;
+    color:white;
+    padding-top:30px;
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+
+}
+
+nav{height:60px;
+    width:100%; 
+    background-color:orange;
+
+}
+
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:orange;
+
+    }
+
+    li{
+        float:left;
+        margin:5px;
+    }
+
+li a{
+    display:block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+}
+
+li a:hover{
+    background-color: green;
+    border-radius: 30px;
+}
+
+
+.vipe{color:cornflowerblue;
+    padding-top: 10px;
+    margin:5px;
+    text-align: center;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+p{color:black;
+    text-align: justify;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-left: 40px ;
+    margin-right: 40px; 
+    margin-top:10px; 
+}
+
+.contenedor{width: 100%;
+      height: 300px;
+      margin-left: 80px;
+      display: block;
+}
+
+.carros {width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0;
+    padding:30px;
+    float:left;
+    
+}
+
+.motos {width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0;
+    padding:30px;
+    float:left;
+ 
+    
+}
+
+.aviones {width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0;
+    padding:30px;
+    float:left;
+   
+}
+.helicopteros{width: 150px;
+    height: 150px;
+    display: block;
+    margin:0;
+    padding:30px;
+    float:left;
+ 
+}
+.barcos {width: 150px;
+    height: 150px;
+    display: block;
+    margin:0;
+    padding:30px;
+    float:left;
+    
+}
+
+.contenedor img{width: 200px;
+    display: block;
+    margin:10;
+    border-radius: 80%;
+
+}
+
+footer{width: 100%;
+height: 100px;
+background-color: orange;
+left: 0;
+bottom: 0;
+color:black;
+text-align:center;
+}
+
+.tooltip{
+    position: relative;
+    display: inline block;
+}
+.tooltip.tooltipbox{
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding:5px 0;
+    position: absolute;
+    z-index:1;
+}
